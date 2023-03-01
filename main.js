@@ -22,7 +22,7 @@ const getContacts = () => {
         <div id="moreInfo">
             address, email, phone,
             </div>
-        <button onclick>More Info/ Less Info</button>
+        <button id="show-button" onclick=myFunction()>More Info/ Less Info</button>
         `;
 
     addressList.insertAdjacentHTML("afterbegin", html);
@@ -31,7 +31,7 @@ const getContacts = () => {
 }
 
 function myFunction() {
-    var x = document.getElementById("myDIV");
+    var x = document.getElementById("show-button");
     if (x.style.display === "none") {
       x.style.display = "block";
     } else {
