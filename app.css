@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.moreInfo {
+    display: none;
+    
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.names {
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+button {
+    background-color: black;
+    border: solid 2px white;
+    color: white;
+}
